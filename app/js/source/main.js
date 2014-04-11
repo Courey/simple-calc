@@ -32,7 +32,8 @@
     factorial(numbers[0]);
     function factorial(num){
       if(num===0){
-        return 1;
+        result = 1;
+        return result;
       }
       result = num * factorial(num-1);
       return result;
